@@ -1,0 +1,28 @@
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #fff;
+}
+
+h1 {
+    background-color: #0e78b7 !important;
+    background-image: -webkit-linear-gradient(left, #fff, #3d449e, #fff) !important;
+    background-image: -moz-linear-gradient(left, #fff, #3d449e, #fff) !important;
+    background-image: -ms-linear-gradient(left, #fff, #3d449e, #fff) !important;
+    background-image: -o-linear-gradient(left, #fff, #3d449e, #fff) !important;
+}
+
+.next-slide {
+    background: #fff url(images/right-arrow.png) 13px 50% no-repeat;
+    background-size: 10px;
+}
+
+.topbanners img {
+    /* box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.2); */
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.topbanners img:hover {
+    transform: scale(1.03);
+}
